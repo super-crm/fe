@@ -1,0 +1,50 @@
+{
+  "app.name": "Super CRM",
+  "app.routes.home": "Login",
+  "app.routes.register": "Register",
+  "app.routes.repositories": "Repositories",
+  "pages.home.hi": "Hi {name}",
+  "pages.home.repositories": "Check saved repositories",
+  "pages.home.register": "Create account",
+  "pages.register.success": "Account created!",
+  "pages.register.success.link": "Proceed to login",
+  "pages.repositories.empty": "No repositories yet...",
+  "pages.repositories.repository.name": "Name",
+  "pages.repositories.repository.owner": "Owner",
+  "pages.repositories.repository.url": "Url",
+  "pages.repositories.repository.stars": "Stars",
+  "pages.repositories.repository.forks": "Forks",
+  "pages.repositories.repository.issues": "Issues",
+  "pages.repositories.repository.dateOfCreation": "Date of creation",
+
+  "fields.email.placeholder": "Email",
+  "fields.email.errors.required": "Email is required",
+  "fields.email.errors.pattern": "Invalid email format",
+  "fields.email.errors.exists": "User with this email already exists",
+
+  "fields.path.placeholder": "Repository path",
+  "fields.path.errors.required": "Repository path is required",
+
+  "fields.lastName.placeholder": "Last name",
+  "fields.lastName.errors.required": "Last name is required",
+
+  "fields.firstName.placeholder": "First name",
+  "fields.firstName.errors.required": "First name is required",
+
+  "fields.password.placeholder": "Password",
+  "fields.password.errors.required": "Password is required",
+  "fields.password.errors.unauthorized": "Unauthorized",
+
+  "fields.passwordConfirmation.placeholder": "Password confirmation",
+  "fields.passwordConfirmation.errors.required": "Password confirmation is required",
+  "fields.passwordConfirmation.errors.notMatch": "Passwords do not match",
+
+  "buttons.login": "Login",
+  "buttons.logout": "Logout",
+  "buttons.register": "Register",
+  "buttons.add": "Add",
+  "buttons.delete": "Delete",
+  "buttons.update": "Update",
+  "common.error": "Something went wrong!",
+  "common.close": "Close"
+}
