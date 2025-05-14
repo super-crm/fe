@@ -10,7 +10,7 @@ const Home: FC = () => {
   const { loggedUser } = useHome();
   if (loggedUser) {
     return (
-      <Stack spacing={4}>
+      <Stack spacing={4} padding={4}>
         <Typography variant="h3">
           {translate('pages.home.hi', { name: loggedUser.firstName })}
         </Typography>
